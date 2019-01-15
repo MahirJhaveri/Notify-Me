@@ -34,13 +34,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="BjY-wt-nPx">
-                                <rect key="frame" x="0.0" y="161" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="568967281.204023">
-                                    <!--2019-01-12 06:28:01 +0000-->
-                                </date>
-                            </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOc-Vw-bLM">
                                 <rect key="frame" x="30" y="119" width="323" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,13 +76,6 @@
                                     <action selector="addAlarmButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewj-eh-7BK"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="gYj-JD-ILH">
-                                <rect key="frame" x="0.0" y="161" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="568967281.204023">
-                                    <!--2019-01-12 06:28:01 +0000-->
-                                </date>
-                            </datePicker>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3m-lm-ke9">
                                 <rect key="frame" x="0.0" y="401" width="375" height="1"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -103,6 +89,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="WJP-Jm-PGS">
+                                <rect key="frame" x="0.0" y="161" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="569244928.97530496">
+                                    <!--2019-01-15 11:35:28 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="datePickerValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="PpY-6z-rAW"/>
+                                </connections>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -112,7 +108,7 @@
                     <connections>
                         <outlet property="alarmDeleteButton" destination="nuF-2k-cAE" id="04L-fJ-23J"/>
                         <outlet property="alarmTimeLabel" destination="flv-pI-qX1" id="bGc-Pb-gP7"/>
-                        <outlet property="datePicker" destination="gYj-JD-ILH" id="e6U-d1-BUd"/>
+                        <outlet property="datePicker" destination="WJP-Jm-PGS" id="bCl-Sc-jQB"/>
                         <outlet property="horizontalRule" destination="h3m-lm-ke9" id="aKF-cz-2T2"/>
                         <segue destination="Ki2-xm-P9S" kind="show" identifier="segue1" id="FyB-Nj-Sil"/>
                     </connections>

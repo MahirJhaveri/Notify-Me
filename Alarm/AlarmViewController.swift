@@ -200,5 +200,10 @@ class AlarmViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = false  //Show
     }
     
+    
+    @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
+        sender.setDate(sender.date, animated: false)
+    }
+    
 }
 
