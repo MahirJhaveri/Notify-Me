@@ -34,29 +34,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOc-Vw-bLM">
-                                <rect key="frame" x="30" y="119" width="323" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOc-Vw-bLM">
+                                <rect key="frame" x="30" y="121" width="94" height="24"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarm will only play once" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBc-Os-E84">
-                                <rect key="frame" x="30" y="331" width="140" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm will only play once" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBc-Os-E84">
+                                <rect key="frame" x="30" y="357.5" width="140" height="15"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flv-pI-qX1">
-                                <rect key="frame" x="30" y="419" width="247" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flv-pI-qX1">
+                                <rect key="frame" x="30" y="448.5" width="131" height="42"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuF-2k-cAE">
-                                <rect key="frame" x="292" y="419" width="67" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuF-2k-cAE">
+                                <rect key="frame" x="303.5" y="452.5" width="53" height="34"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Delete">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,9 +62,8 @@
                                     <action selector="deleteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zw3-Vj-D10"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huq-qf-aTj">
-                                <rect key="frame" x="298" y="345" width="55" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huq-qf-aTj">
+                                <rect key="frame" x="315" y="350" width="30" height="30"/>
                                 <state key="normal" title="Add">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -76,22 +71,20 @@
                                     <action selector="addAlarmButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewj-eh-7BK"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3m-lm-ke9">
-                                <rect key="frame" x="0.0" y="401" width="375" height="1"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notify Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH0-MQ-Yec">
-                                <rect key="frame" x="0.0" y="37" width="375" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notify Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH0-MQ-Yec">
+                                <rect key="frame" x="124.5" y="40" width="126" height="36"/>
                                 <color key="tintColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="WJP-Jm-PGS">
-                                <rect key="frame" x="0.0" y="161" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="WJP-Jm-PGS">
+                                <rect key="frame" x="15" y="160" width="345" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="f64-KV-mGX">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="125"/>
+                                    </constraint>
+                                </constraints>
                                 <date key="date" timeIntervalSinceReferenceDate="569244928.97530496">
                                     <!--2019-01-15 11:35:28 +0000-->
                                 </date>
@@ -99,9 +92,48 @@
                                     <action selector="datePickerValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="PpY-6z-rAW"/>
                                 </connections>
                             </datePicker>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h3m-lm-ke9">
+                                <rect key="frame" x="0.0" y="432.5" width="375" height="1"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="fow-k4-TYn"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="flv-pI-qX1" firstAttribute="top" secondItem="h3m-lm-ke9" secondAttribute="bottom" constant="15" id="0pB-4f-og3">
+                                <variation key="heightClass=compact-widthClass=compact" constant="7.5"/>
+                            </constraint>
+                            <constraint firstItem="TOc-Vw-bLM" firstAttribute="top" secondItem="pH0-MQ-Yec" secondAttribute="bottom" constant="45" id="4FH-po-ORg">
+                                <variation key="heightClass=compact-widthClass=compact" constant="22"/>
+                            </constraint>
+                            <constraint firstItem="pH0-MQ-Yec" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="9y5-y1-Oa0">
+                                <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="Huq-qf-aTj" firstAttribute="centerX" secondItem="nuF-2k-cAE" secondAttribute="centerX" id="IDT-SI-dSQ"/>
+                            <constraint firstItem="WJP-Jm-PGS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LLn-bE-gZ1"/>
+                            <constraint firstItem="h3m-lm-ke9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OWz-AX-PvN"/>
+                            <constraint firstItem="Huq-qf-aTj" firstAttribute="top" secondItem="WJP-Jm-PGS" secondAttribute="bottom" constant="15" id="VAl-n4-4kK">
+                                <variation key="heightClass=compact-widthClass=compact" constant="7.5"/>
+                            </constraint>
+                            <constraint firstItem="RBc-Os-E84" firstAttribute="centerY" secondItem="Huq-qf-aTj" secondAttribute="centerY" id="VWf-7o-ef7"/>
+                            <constraint firstItem="WJP-Jm-PGS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Vuw-xG-HEY"/>
+                            <constraint firstItem="WJP-Jm-PGS" firstAttribute="top" secondItem="TOc-Vw-bLM" secondAttribute="bottom" constant="15" id="YmX-mc-vY6">
+                                <variation key="heightClass=compact-widthClass=compact" constant="7.5"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Huq-qf-aTj" secondAttribute="trailing" constant="30" id="YoX-ft-yy8"/>
+                            <constraint firstItem="flv-pI-qX1" firstAttribute="centerY" secondItem="nuF-2k-cAE" secondAttribute="centerY" id="aDa-L4-Qif"/>
+                            <constraint firstItem="flv-pI-qX1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="eUE-bf-jGl"/>
+                            <constraint firstItem="RBc-Os-E84" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="gIN-YD-9k2"/>
+                            <constraint firstItem="h3m-lm-ke9" firstAttribute="top" secondItem="RBc-Os-E84" secondAttribute="bottom" constant="60" id="ud4-py-AnF">
+                                <variation key="heightClass=compact-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="TOc-Vw-bLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="vPZ-XE-tbT"/>
+                            <constraint firstItem="h3m-lm-ke9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w8T-rX-j9R"/>
+                            <constraint firstItem="pH0-MQ-Yec" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yG8-2r-ka7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="mab-9h-dXv"/>
@@ -125,15 +157,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time to roll!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2Z-P3-dkp">
-                                <rect key="frame" x="55" y="306" width="264" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time to roll!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2Z-P3-dkp">
+                                <rect key="frame" x="55.5" y="306.5" width="264" height="54"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M2Z-P3-dkp" firstAttribute="centerY" secondItem="lfh-3U-PAj" secondAttribute="centerY" id="0JO-gh-dqC"/>
+                            <constraint firstItem="M2Z-P3-dkp" firstAttribute="centerX" secondItem="lfh-3U-PAj" secondAttribute="centerX" id="I7t-cC-h2W"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vKA-Ok-R3Q"/>
                     </view>
                 </viewController>

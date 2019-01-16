@@ -11,7 +11,6 @@ import UserNotifications
 
 // TODO -
 // 0.5) Make date to update day based on time of day
-// 1) Make alarm sound when app is open
 // 2) Add sound to notification
 // 3) Mechanism to delete alarm after one play
 
